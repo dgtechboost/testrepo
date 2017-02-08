@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "PhotoStream";
+}
+
+@using System.Web.Optimization
+<p>PhotoStream</p>
+
+
+@section head{
+    @Styles.Render("~/bundles/SpaSharedVendorStyles")
+    <base href="@Url.Content("~/")" />
+}
+
+@Html.Partial("_SpaLayout")
+
+@section scripts{
+    @Scripts.Render("~/bundles/SpaSharedVendorScripts")
+    @Scripts.Render("~/bundles/SpaSharedAppCoreScripts")
+    @Scripts.Render("~/bundles/flickrAppScripts")
+    @Scripts.Render("~/bundles/SpaSharedAppScripts")
+}   

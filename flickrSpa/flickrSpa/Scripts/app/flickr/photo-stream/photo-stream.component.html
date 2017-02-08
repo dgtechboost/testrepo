@@ -1,0 +1,23 @@
+﻿<div class="row" style="display:flex; flex-wrap: wrap;">
+    <div class="col-md-4 image-holder" data-ng-repeat="photoObj in $ctrl.photoStreamViewModel.data.items">
+    <div class="thumbnail">
+        <img src="{{photoObj.media.m}}">
+        <div class="caption">
+            <a href="{{photoObj.link}}" target="_blank">
+                <h3 class="truncate">Photo title: {{photoObj.title}}</h3>
+            </a>
+            <a href="https://www.flickr.com/{{photoObj.author_id}}" target="_blank">
+                <p>
+                    <strong>Author:</strong> {{photoObj.author}}
+                </p>
+            </a>
+            <p class="truncate">
+                <strong>Description:</strong> {{photoObj.description}}
+            </p>
+            <p class="truncate">
+                <strong>Tag:</strong>{{photoObj.tags}}
+            </p>
+        </div>
+    </div>
+</div>
+</div>

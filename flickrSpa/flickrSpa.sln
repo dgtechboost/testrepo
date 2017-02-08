@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flickrSpa", "flickrSpa\flickrSpa.csproj", "{9A8F8548-2170-4584-AF92-E5A891381D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flickrSpa.Tests", "flickrSpa.Tests\flickrSpa.Tests.csproj", "{97D4A3CE-3D88-4DAC-A894-02D0CB8CF0D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{079716DD-AC8B-493C-9361-61E6F6A0C9E0}"
+	ProjectSection(SolutionItems) = preProject
+		WebEssentials-Settings.json = WebEssentials-Settings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0C3FC2E2-01E3-473E-B824-01DA532DEADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A8F8548-2170-4584-AF92-E5A891381D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8F8548-2170-4584-AF92-E5A891381D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D4A3CE-3D88-4DAC-A894-02D0CB8CF0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D4A3CE-3D88-4DAC-A894-02D0CB8CF0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+/// <reference path="../typings/angularjs/angular.d.ts" />
+/////// <reference path="../typings/angularjs/angular-animate.d.ts" />
+/////// <reference path="../typings/angularjs/angular-component-router.d.ts" />
+///// <reference path="../typings/angularjs/angular-cookies.d.ts" />
+///// <reference path="../typings/angularjs/angular-mocks.d.ts" />
+///// <reference path="../typings/angularjs/angular-resource.d.ts" />
+///// <reference path="../typings/angularjs/angular.d.ts" />
+///// <reference path="../typings/angularjs/angular-sanitize.d.ts" />
+/////// <reference path="../typings/angular-ui-bootstrap/angular-ui-bootstrap.d.ts" />
+///// <reference path="../typings/angular-ui-router/angular-ui-router.d.ts" />
+///// <reference path="../typings/angularjs-toaster/angularjs-toaster.d.ts" />
+///// <reference path="../typings/es6-promise/es6-promise.d.ts" />
+///// <reference path="../typings/jasmine/jasmine.d.ts" />
+/// <reference path="../typings/jquery/jquery.d.ts" /> 
+//# sourceMappingURL=_references.js.map
