@@ -1,0 +1,265 @@
+
+<html>
+<head>
+    <title>Chutzpah Code Coverage Results</title>
+    <script type='text/javascript'>
+        
+function chutzpah_toggleSource(id) {
+        var element = document.getElementById(id);
+        if(element.style.display === 'block') {
+            element.style.display = 'none';
+        } else {
+            element.style.display = 'block';
+        }
+    }
+
+    </script>
+    <style>
+        
+#chutzpah-main
+{
+  background:#EEE;
+  clear:both;
+  color:#333;
+  font-family:'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Calibri, Helvetica, Arial, sans-serif;
+  font-size:17px;
+  margin:2px;
+}
+
+#chutzpah-main a
+{
+  color:#333;
+  text-decoration:none;
+}
+
+#chutzpah-main a:hover
+{
+  text-decoration:underline;
+}
+
+.chutzpah
+{
+  border-bottom:1px solid #FFF;
+  clear:both;
+  margin:0;
+  padding:5px;
+}
+
+.chutzpah-error
+{
+  color:red;
+}
+
+.chutzpah-success
+{
+  color:#5E7D00;
+}
+
+.chutzpah-file
+{
+  width:auto;
+}
+
+.chutzpah-cl
+{
+  float:left;
+}
+
+.chutzpah div.rs
+{
+  float:right;
+  margin-left:50px;
+  width:150px;
+}
+
+.chutzpah-nb
+{
+  padding-right:10px;
+}
+
+#chutzpah-main a.chutzpah-logo
+{
+  color:#3245FF;
+  cursor:pointer;
+  font-weight:700;
+  text-decoration:none;
+}
+
+.chutzpah-source
+{
+  background-color:#FFF;
+  border:1px solid #CBCBCB;
+  color:#363636;
+  margin:25px 20px;
+  overflow-x:scroll;
+  width:80%;
+}
+
+.chutzpah-source div
+{
+  white-space:nowrap;
+}
+
+.chutzpah-source span
+{
+  background-color:#EAEAEA;
+  color:#949494;
+  display:inline-block;
+  padding:0 10px;
+  text-align:center;
+}
+
+.chutzpah-source .miss
+{
+  background-color:#e6c3c7;
+}
+
+    </style>
+</head>
+<body>
+<div id='chutzpah-main'>
+	<div class='chutzpah chutzpah-title'>
+		<div class='chutzpah-cl chutzpah-file'>
+			<a href='http://chutzpah.codeplex.com/' target='_blank' class='chutzpah-logo'>Chutzpah</a> code coverage via <a href='http://blanketjs.org' target='_blank' class='chutzpah-logo'>blanket.js</a> results
+		</div>
+		<div class='chutzpah-cl rs'>
+			Coverage (%)
+		</div>
+		<div class='chutzpah-cl rs'>
+			Covered/Total Smts.
+		</div>
+		<div style='clear:both;'>
+		</div>
+	</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>1.</span><a href='javascript:chutzpah_toggleSource("file-1")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\flickrSpa\flickrSpa\Scripts\app\core\index.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		5/5
+	</div>
+	<div id='file-1' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>1</span>var&nbsp;App;</div> <div class='hit'><span class=''>2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Core;</div> <div class='hit'><span class=''>4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Core)&nbsp;{</div> <div class='hit'><span class=''>5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angular.module(&#39;core&#39;,&nbsp;[&#39;ngAnimate&#39;,&nbsp;&#39;ngSanitize&#39;,&nbsp;&#39;ngMessages&#39;,&nbsp;&#39;ui.bootstrap&#39;,&nbsp;&#39;ui.router&#39;]);</div> <div class='{{executed}}'><span class=''>6</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Core&nbsp;=&nbsp;App.Core&nbsp;||&nbsp;(App.Core&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>7</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>8</span>//#&nbsp;sourceMappingURL=index.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>2.</span><a href='javascript:chutzpah_toggleSource("file-2")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\flickrSpa\flickrSpa\Scripts\app\flickr\photo-stream\photo-stream.service.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		68.42 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		13/19
+	</div>
+	<div id='file-2' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Flickr;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Flickr)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStream;</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(PhotoStream)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Services;</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Services)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStreamService&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;PhotoStreamService($http)&nbsp;{</div> <div class='miss'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.$http&nbsp;=&nbsp;$http;</div> <div class='miss'><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.apiBaseUri&nbsp;=&nbsp;&#39;http://api.flickr.com/services/feeds/photos_public.gne&#39;;</div> <div class=''><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStreamService.prototype.getViewModel&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='miss'><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;apiCall&nbsp;=&nbsp;this.apiBaseUri&nbsp;+&nbsp;&quot;?jsoncallback=JSON_CALLBACK&quot;</div> <div class=''><span class=''>16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&quot;&amp;tags=&quot;&nbsp;+&nbsp;encodeURIComponent(&#39;angularjs&#39;)</div> <div class=''><span class=''>17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&quot;&amp;tagmode=&quot;&nbsp;+&nbsp;&#39;all&#39;</div> <div class=''><span class=''>18</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&quot;&amp;format=json&quot;;</div> <div class=''><span class=''>19</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;send&nbsp;AJAX&nbsp;query&nbsp;to&nbsp;Flickr&nbsp;API</div> <div class='miss'><span class=''>20</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;this.$http.jsonp(apiCall)</div> <div class=''><span class=''>21</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.success(function&nbsp;(data,&nbsp;status,&nbsp;headers,&nbsp;config)&nbsp;{</div> <div class='miss'><span class=''>22</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(data&nbsp;!=&nbsp;null)&nbsp;{</div> <div class='miss'><span class=''>23</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;data;</div> <div class=''><span class=''>24</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>25</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class=''><span class=''>26</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>27</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;PhotoStreamService;</div> <div class=''><span class=''>28</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>29</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Services.PhotoStreamService&nbsp;=&nbsp;PhotoStreamService;</div> <div class='{{executed}}'><span class=''>30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})(Services&nbsp;=&nbsp;PhotoStream.Services&nbsp;||&nbsp;(PhotoStream.Services&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>31</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})(PhotoStream&nbsp;=&nbsp;Flickr.PhotoStream&nbsp;||&nbsp;(Flickr.PhotoStream&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>32</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Flickr&nbsp;=&nbsp;App.Flickr&nbsp;||&nbsp;(App.Flickr&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>33</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>34</span>//#&nbsp;sourceMappingURL=photo-stream.service.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>3.</span><a href='javascript:chutzpah_toggleSource("file-3")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\flickrSpa\flickrSpa\Scripts\app\flickr\photo-stream\index.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		9/9
+	</div>
+	<div id='file-3' class='chutzpah-source' style='display:none;'>
+		 <div class=''><span class=''>&nbsp;&nbsp;1</span>///&nbsp;&lt;reference&nbsp;path=&quot;../../../../_references.ts&quot;&nbsp;/&gt;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Flickr;</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Flickr)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStream;</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(PhotoStream)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStreamService&nbsp;=&nbsp;App.Flickr.PhotoStream.Services.PhotoStreamService;</div> <div class='hit'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStream.moduleName&nbsp;=&nbsp;&#39;photoStream&#39;;</div> <div class='hit'><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angular.module(PhotoStream.moduleName,&nbsp;[&#39;core&#39;])</div> <div class='{{executed}}'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.service(&#39;PhotoStreamService&#39;,&nbsp;PhotoStreamService);</div> <div class='{{executed}}'><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})(PhotoStream&nbsp;=&nbsp;Flickr.PhotoStream&nbsp;||&nbsp;(Flickr.PhotoStream&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Flickr&nbsp;=&nbsp;App.Flickr&nbsp;||&nbsp;(App.Flickr&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>14</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>15</span>//#&nbsp;sourceMappingURL=index.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-error'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>4.</span><a href='javascript:chutzpah_toggleSource("file-4")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\flickrSpa\flickrSpa\Scripts\app\flickr\photo-stream\photo-stream.controller.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		48 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		12/25
+	</div>
+	<div id='file-4' class='chutzpah-source' style='display:none;'>
+		 <div class='hit'><span class=''>&nbsp;&nbsp;1</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Flickr;</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(Flickr)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStream;</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(function&nbsp;(PhotoStream)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;PhotoStreamController&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;PhotoStreamController(photoStreamService)&nbsp;{</div> <div class='miss'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.photoStreamService&nbsp;=&nbsp;photoStreamService;</div> <div class=''><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStreamController.prototype.$onInit&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='miss'><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.search();</div> <div class=''><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStreamController.prototype.search&nbsp;=&nbsp;function&nbsp;()&nbsp;{</div> <div class='miss'><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;_this&nbsp;=&nbsp;this;</div> <div class='miss'><span class=''>16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.photoStreamService.getViewModel().then(function&nbsp;(photoStreamViewModel)&nbsp;{</div> <div class='miss'><span class=''>17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_this.photoStreamViewModel&nbsp;=&nbsp;photoStreamViewModel;</div> <div class='miss'><span class=''>18</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(_this.photoStreamViewModel&nbsp;!=&nbsp;null&nbsp;&amp;&amp;&nbsp;_this.photoStreamViewModel.data&nbsp;!=&nbsp;null)&nbsp;{</div> <div class='miss'><span class=''>19</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;(var&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;_this.photoStreamViewModel.data.items.length;&nbsp;i++)&nbsp;{</div> <div class=''><span class=''>20</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//remove&nbsp;quotes&nbsp;frome&nbsp;title</div> <div class='miss'><span class=''>21</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;author&nbsp;=&nbsp;_this.photoStreamViewModel.data.items[i].author;</div> <div class='miss'><span class=''>22</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;removeQuotes&nbsp;=&nbsp;author.slice(author.indexOf(&#39;(&#39;)&nbsp;+&nbsp;1,&nbsp;author.indexOf(&#39;)&#39;));</div> <div class='miss'><span class=''>23</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_this.photoStreamViewModel.data.items[i].author&nbsp;=&nbsp;removeQuotes.replace(/^&quot;(.*)&quot;$/,&nbsp;&#39;$1&#39;);</div> <div class=''><span class=''>24</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//remove&nbsp;html&nbsp;tags&nbsp;and&nbsp;keywords</div> <div class='miss'><span class=''>25</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;description&nbsp;=&nbsp;_this.photoStreamViewModel.data.items[i].description;</div> <div class='miss'><span class=''>26</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;mainTitle&nbsp;=&nbsp;description.toString().slice(description.toString().indexOf(&#39;&quot;&nbsp;title=&quot;&#39;)&nbsp;+&nbsp;1,&nbsp;description.toString().indexOf(&#39;&quot;&gt;&lt;img&#39;));</div> <div class='miss'><span class=''>27</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;result&nbsp;=&nbsp;_this.photoStreamViewModel.data.items[i].description&nbsp;=&nbsp;description.replace(/&lt;[^&gt;]*&gt;/g,&nbsp;&#39;&#39;)&nbsp;+&nbsp;mainTitle.replace(&#39;title=&quot;&#39;,&nbsp;&#39;&#39;);</div> <div class=''><span class=''>28</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>29</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class=''><span class=''>31</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</div> <div class='hit'><span class=''>32</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;PhotoStreamController;</div> <div class=''><span class=''>33</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>34</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhotoStream.PhotoStreamController&nbsp;=&nbsp;PhotoStreamController;</div> <div class='{{executed}}'><span class=''>35</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})(PhotoStream&nbsp;=&nbsp;Flickr.PhotoStream&nbsp;||&nbsp;(Flickr.PhotoStream&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>36</span>&nbsp;&nbsp;&nbsp;&nbsp;})(Flickr&nbsp;=&nbsp;App.Flickr&nbsp;||&nbsp;(App.Flickr&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>37</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>38</span>//#&nbsp;sourceMappingURL=photo-stream.controller.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>5.</span><a href='javascript:chutzpah_toggleSource("file-5")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\flickrSpa\flickrSpa\scripts\app\index.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		9/9
+	</div>
+	<div id='file-5' class='chutzpah-source' style='display:none;'>
+		 <div class=''><span class=''>&nbsp;&nbsp;1</span>///&nbsp;&lt;reference&nbsp;path=&quot;../../_references.ts&quot;&nbsp;/&gt;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;moduleDepenciesToCheck&nbsp;=&nbsp;[&#39;core&#39;,&nbsp;&#39;flickr&#39;,&nbsp;&#39;photoStream&#39;];</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;appModuleDependencies&nbsp;=&nbsp;[];</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;moduleDepenciesToCheck.forEach(function&nbsp;(moduleName)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(angular.module(moduleName))&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;appModuleDependencies.push(moduleName);</div> <div class=''><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;catch&nbsp;(e)&nbsp;{</div> <div class=''><span class=''>13</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class=''><span class=''>14</span>&nbsp;&nbsp;&nbsp;&nbsp;});</div> <div class='hit'><span class=''>15</span>&nbsp;&nbsp;&nbsp;&nbsp;angular.module(&#39;app&#39;,&nbsp;appModuleDependencies)</div> <div class='{{executed}}'><span class=''>16</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.config([</div> <div class='{{executed}}'><span class=''>17</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#39;$logProvider&#39;,&nbsp;&#39;$httpProvider&#39;,&nbsp;&#39;$provide&#39;,&nbsp;function&nbsp;($logProvider,&nbsp;$httpProvider,&nbsp;$provide)&nbsp;{</div> <div class='{{executed}}'><span class=''>18</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='{{executed}}'><span class=''>19</span>&nbsp;&nbsp;&nbsp;&nbsp;]);</div> <div class='{{executed}}'><span class=''>20</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>21</span>//#&nbsp;sourceMappingURL=index.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>6.</span><a href='javascript:chutzpah_toggleSource("file-6")'>C:\Users\DGalejev\Documents\Visual Studio 2013\Projects\flickrSpa\flickrSpa\scripts\app\app.component.ts</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		100 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		9/9
+	</div>
+	<div id='file-6' class='chutzpah-source' style='display:none;'>
+		 <div class=''><span class=''>&nbsp;&nbsp;1</span>///&nbsp;&lt;reference&nbsp;path=&quot;../typings/angularjs/angular.d.ts&quot;&nbsp;/&gt;</div> <div class='hit'><span class=''>&nbsp;&nbsp;2</span>var&nbsp;App;</div> <div class='hit'><span class=''>&nbsp;&nbsp;3</span>(function&nbsp;(App)&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;AppComponent&nbsp;=&nbsp;(function&nbsp;()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;AppComponent()&nbsp;{</div> <div class='hit'><span class=''>&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bindings&nbsp;=&nbsp;{};</div> <div class='hit'><span class=''>&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.template&nbsp;=&nbsp;&quot;&lt;div&nbsp;ui-view&gt;&lt;/div&gt;&quot;;</div> <div class=''><span class=''>&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div> <div class='hit'><span class=''>&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;AppComponent;</div> <div class=''><span class=''>10</span>&nbsp;&nbsp;&nbsp;&nbsp;}());</div> <div class='hit'><span class=''>11</span>&nbsp;&nbsp;&nbsp;&nbsp;App.AppComponent&nbsp;=&nbsp;AppComponent;</div> <div class='hit'><span class=''>12</span>&nbsp;&nbsp;&nbsp;&nbsp;angular.module(&#39;app&#39;).component(&#39;app&#39;,&nbsp;new&nbsp;AppComponent());</div> <div class='{{executed}}'><span class=''>13</span>})(App&nbsp;||&nbsp;(App&nbsp;=&nbsp;{}));</div> <div class='{{executed}}'><span class=''>14</span>//#&nbsp;sourceMappingURL=app.component.js.map</div>
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+<div class='chutzpah chutzpah-success'>
+	<div class='chutzpah-cl chutzpah-file'>
+		<span class='chutzpah-nb'>7.</span><a href='javascript:chutzpah_toggleSource("file-7")'>Total</a>
+	</div>
+	<div class='chutzpah-cl rs'>
+		75 %
+	</div>
+	<div class='chutzpah-cl rs'>
+		57/76
+	</div>
+	<div id='file-7' class='chutzpah-source' style='display:none;'>
+		
+	</div>
+	<div style='clear:both;'>
+	</div>
+</div>
+
+
+</div>
+</body>
+</html>
+

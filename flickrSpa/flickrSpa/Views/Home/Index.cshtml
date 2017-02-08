@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Flickr API Spa";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                To complete this task such technologies are used as Angular 1.5 using component structure, Typescript and Bootstrap
+            </p>
+        </div>
+    </section>
+}
+<h3>Summary for technology choice:</h3>
+
+<p>In this app you can see a web components approach being used. This approach allows to build independent application components that can be replaced, changed and extended without compromising the whole application performance.</p>
+<p>The components approach allows a great reusability and interoperability within the application.</p>
+<p>This is also a basis of latest Angular development where each element is a component that contains HTML part, a logic through various elements, custom elements and attributes.</p>
+<p>Components approach proves to be effective to have a modular application by utilizing separate functionality of these components. This also provides a more stable way of maintaining the application and scaling it for future since components can be replaced and reused throughout the application.</p>
+<p>This app encompases .Net MVC framework and Angular MVVM pattern.</p>
+
+<h3>Details of code and folder structure:</h3>
+<ol class="round">
+    <li>
+        <ul>
+            <li>There is an app folder that contains the code for the Angular app. It is located in Scripts folder. </li>
+            <li>App folder contains folders called core and flickr.</li>
+            <li>Core folder is like a centralized location to register all the required 3rd party libraries and other resources.</li>
+            <li>Then we got flickr folder which represents the flickr Api app</li>
+            <li>Flickr Api app contains models and photo-stream folders.</li>
+            <li>The models folder contains file that has the required models to be used withing the app code.</li>
+            <li>Photo-stream contains all the code and files required to construct photo-stream component that holds all the photos obtained from public Flickr Api.</li>
+            <li>You also got a flickr.route file where all the routing details are stored.</li>
+            <li>There is also an app.component that represents main component for the app.</li>
+            <li>App component stores a reference for angular ui router. It is ui-view</li>
+        </ul>
+    </li>
+    <li>
+        <h3 style="margin-bottom: 10px;">Details of unit testing:</h3>
+        <ul>
+            <li>Jasmine testing framework was used for particular app.</li>
+            <li>Chutzpah test runner and test adapter for Visual Studio.</li>
+            <li>You need all the above to be installed in order to be able to run these tests.</li>
+            <li>Test files have a .spec.ts ending</li>
+        </ul>
+    </li>
+</ol>

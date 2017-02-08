@@ -1,0 +1,33 @@
+﻿{
+    "Framework": "jasmine",
+    "Compile": {
+        "Mode": "External",
+        "Extensions": [ ".ts" ],
+        "ExtensionsWithNoOutput": [ ".d.ts" ]
+    },
+    "CodeCoverageExcludes": [ "*.spec.ts" ],
+    "References": [
+        { "Path": "Scripts/angular.js", "IsTestFrameworkFile": true },
+        { "Path": "Scripts/angular-mocks.js", "IsTestFrameworkFile": true },
+        { "Path": "Scripts/angular-ui/ui-bootstrap.js", "IsTestFrameworkFile": true },
+        { "Path": "Scripts/angular-ui/ui-bootstrap-tpl.js", "IsTestFrameworkFile": true },
+        { "Path": "Scripts/angular-ui-router.js", "IsTestFrameworkFile": true },
+        { "Path": "Scripts/angular-animate.js", "IsTestFrameworkFile": true },
+        { "Path": "Scripts/angular-sanitize.js", "IsTestFrameworkFile": true },
+        { "Path": "Scripts/angular-messages.js", "IsTestFrameworkFile": true },
+        { "Path": "Scripts/toaster.js", "IsTestFrameworkFile": true },
+       
+        { "Path": "Scripts/app/core/index.ts", "Excludes": [ "*/*.d.ts", "*/**.js", "*/*.spec.ts" ] },
+		 { "Path": "Scripts/app/flickr/models/flickr.ts", "Excludes": [ "*/*.d.ts", "*/**.js", "*/*.spec.ts" ] },
+        { "Path": "Scripts/app/flickr/photo-stream/photo-stream.service.ts", "Excludes": [ "*/*.d.ts", "*/**.js", "*/*.spec.ts" ] },
+        { "Path": "Scripts/app/flickr/photo-stream/index.ts", "Excludes": [ "*/*.d.ts", "*/**.js", "*/*.spec.ts" ] },
+        { "Path": "Scripts/app/flickr/photo-stream/photo-stream.controller.ts", "Excludes": [ "*/*.d.ts", "*/**.js", "*/*.spec.ts" ] },
+        { "Path": "Scripts/app/flickr/photo-stream/photo-stream.component.ts", "Excludes": [ "*/*.d.ts", "*/**.js", "*/*.spec.ts" ] },
+        { "Path": "Scripts/app/index.ts", "Excludes": [ "*/*.d.ts", "*/**.js", "*/*.spec.ts" ] },
+        { "Path": "Scripts/app/app.component.ts", "Excludes": [ "*/*.d.ts", "*/**.js", "*/*.spec.ts" ] }
+    
+    ],
+    "Tests": [
+        { "Path": "Scripts/app", "Includes": [ "*/*.spec.ts" ], "Excludes": [ "*/*.d.ts", "*/**.spec.js" ], "ExpandReferenceComments": "true" }
+    ]
+}
